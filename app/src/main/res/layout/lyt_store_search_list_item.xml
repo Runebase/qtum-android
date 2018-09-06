@@ -15,7 +15,7 @@
         android:layout_marginStart="16dp"
         android:layout_height="20dp" />
 
-    <org.qtum.wallet.utils.FontTextView
+    <org.runebase.wallet.utils.FontTextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:maxLines="1"
@@ -30,10 +30,10 @@
         android:layout_toEndOf="@+id/icon"
         android:layout_toStartOf="@+id/cost"/>
 
-    <org.qtum.wallet.utils.FontTextView
+    <org.runebase.wallet.utils.FontTextView
         android:id="@+id/cost"
         android:maxLines="1"
-        android:layout_toLeftOf="@+id/qtum"
+        android:layout_toLeftOf="@+id/runebase"
         android:layout_centerVertical="true"
         android:scaleType="center"
         android:textSize="18sp"
@@ -46,14 +46,14 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent" />
 
-    <org.qtum.wallet.utils.FontTextView
-        android:id="@+id/qtum"
+    <org.runebase.wallet.utils.FontTextView
+        android:id="@+id/runebase"
         android:maxLines="1"
         android:layout_marginTop="4dp"
         android:layout_alignParentEnd="true"
         android:scaleType="center"
         android:textSize="12sp"
-        android:text="@string/qtum"
+        android:text="@string/runebase"
         android:textColor="@color/colorPrimary"
         app:typefaceAsset="@string/simplonMonoMedium"
         android:gravity="center"

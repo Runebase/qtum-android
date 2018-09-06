@@ -1,16 +1,16 @@
 {
   "project_info": {
     "project_number": "788606128673",
-    "firebase_url": "https://qtum-2210a.firebaseio.com",
-    "project_id": "qtum-2210a",
-    "storage_bucket": "qtum-2210a.appspot.com"
+    "firebase_url": "https://runebase-2210a.firebaseio.com",
+    "project_id": "runebase-2210a",
+    "storage_bucket": "runebase-2210a.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:788606128673:android:0f38015ba08d39d9",
         "android_client_info": {
-          "package_name": "org.qtum.wallet.qa"
+          "package_name": "org.runebase.wallet.qa"
         }
       },
       "oauth_client": [

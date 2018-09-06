@@ -1,6 +1,6 @@
 <b>About</b><br/>
-Combining a modified Bitcoin Core infrastructure with an intercompatible version of the Ethereum Virtual Machine (EVM), Qtum merges the reliability of Bitcoin’s unfailing blockchain with the endless possibilities provided by smart contracts. 
-Designed with stability, modularity and interoperability in mind, Qtum is the foremost toolkit for building trusted decentralized applications, suited for real-world, business oriented use cases. Its hybrid nature, in combination with a first-of-its-kind PoS consensus protocol, allow Qtum applications to be compatible with major blockchain ecosystems, while providing native support for mobile devices and IoT appliances.
+Combining a modified Bitcoin Core infrastructure with an intercompatible version of the Ethereum Virtual Machine (EVM), Runebase merges the reliability of Bitcoin’s unfailing blockchain with the endless possibilities provided by smart contracts. 
+Designed with stability, modularity and interoperability in mind, Runebase is the foremost toolkit for building trusted decentralized applications, suited for real-world, business oriented use cases. Its hybrid nature, in combination with a first-of-its-kind PoS consensus protocol, allow Runebase applications to be compatible with major blockchain ecosystems, while providing native support for mobile devices and IoT appliances.
 
 <b>Getting Started</b><br/>
 1)Clone project<br/>
@@ -17,10 +17,10 @@ If you want to define your network settings, then you<br/>
 
 <b>Setting Custom Network Parameters</b><br/>
 ```java
-package org.qtum.wallet.utils.CurrentNetParams
+package org.runebase.wallet.utils.CurrentNetParams
 
     public static NetworkParameters getNetParams() {
-        return QtumMainNetParams.get(); // or QtumTestNetParams.get();
+        return RunebaseMainNetParams.get(); // or RunebaseTestNetParams.get();
     }
 
 	public static String getUrl() {
@@ -54,14 +54,14 @@ com.android.tools.build:gradle:2.3.3
 - Socket IO (v. 0.8.3)
 
 <b>Third Party Libraries (gradle)</b><br/>
-- ``` 'com.github.designsters:android-fork-bitcoinj:1.+'```  – fork bitcoinj (with QTUM functionality)
+- ``` 'com.github.runebase:android-fork-bitcoinj:1.+'```  – fork bitcoinj (with RUNEBASE functionality)
 - ``` 'com.google.zxing:core:3.2.1'```  – QR-Code/Barcode scanner
 - ``` 'io.reactivex:rxjava:1.1.6', 'io.reactivex:rxandroid:1.2.1'```  – Java RX
 - ``` 'io.socket:socket.io-client:0.8.3'```  - Socket IO Client
 - ``` 'com.squareup.retrofit2:retrofit:2.1.0'```  HTTP Client
 
 <b>Android Fork BitcoinJ</b><br/>
-The android fork bitcoinj library is a Java implementation of the Bitcoin protocol, which allows it to maintain a QTUM wallet and send/receive transactions without needing a local copy of Bitcoin Core. It comes with full documentation and some example apps showing how to use it<br/>
+The android fork bitcoinj library is a Java implementation of the Bitcoin protocol, which allows it to maintain a RUNEBASE wallet and send/receive transactions without needing a local copy of Bitcoin Core. It comes with full documentation and some example apps showing how to use it<br/>
 Link: https://github.com/bitcoinj/bitcoinj
 
 <b>BitcoinJ Technologies</b><br/>

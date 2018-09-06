@@ -8,7 +8,7 @@
     android:background="?attr/selectableItemBackground"
     android:layout_height="56dp">
 
-    <org.qtum.wallet.utils.FontTextView
+    <org.runebase.wallet.utils.FontTextView
         android:id="@+id/token_name"
         android:textSize="16sp"
         android:textColor="@color/bottom_nav_bar_text_color_light"
@@ -44,7 +44,7 @@
         android:layout_marginEnd="16dp"
         android:orientation="horizontal">
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:id="@+id/token_balance"
             android:textSize="14sp"
             android:layout_marginEnd="4dp"
@@ -55,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:id="@+id/token_symbol"
             android:layout_alignParentEnd="true"
             android:textSize="14sp"

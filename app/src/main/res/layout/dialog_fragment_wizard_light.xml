@@ -17,7 +17,7 @@
         android:layout_marginBottom="24dp"
         android:layout_above="@id/tv_text"/>
 
-    <org.qtum.wallet.utils.FontTextView
+    <org.runebase.wallet.utils.FontTextView
         android:id="@+id/tv_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

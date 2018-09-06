@@ -256,7 +256,7 @@ contract CrowdsaleToken is StandardToken, Ownable {
         uint256 differenceFactor = (10**_nativeDecimals) / (10**_decimals);
         return _Amount.mul(_exchangeRate).div(differenceFactor);
     }
-    /// @dev Sends Qtum to the contract owner
+    /// @dev Sends Runebase to the contract owner
     function forwardFunds() internal {
         owner.transfer(msg.value);
     }

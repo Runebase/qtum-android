@@ -26,16 +26,16 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="bottom"
-            android:text="@string/qtum_address"
+            android:text="@string/runebase_address"
             android:textColor="@color/background"
             app:typefaceAsset="@string/simplonMonoRegular" />
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:id="@+id/tv_token_address"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
