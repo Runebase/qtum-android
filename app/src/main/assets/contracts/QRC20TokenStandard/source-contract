@@ -31,7 +31,7 @@ library SafeMath {
  */
 contract QRC20Basic {
     string public name;                   //fancy name: eg Simon Bucks
-    uint8 public decimals;                //How many decimals to show. ie. There could 1000 base units with 3 decimals. Meaning 0.980 SBX = 980 base units. It's like comparing 1 satoshi to 1 runebase.
+    uint8 public decimals;                //How many decimals to show. ie. There could 1000 base units with 3 decimals. Meaning 0.980 SBX = 980 base units. It's like comparing 1 satoshi to 1 qtum.
     string public symbol;                 //An identifier: eg SBX
     uint256 public totalSupply;
     function balanceOf(address _owner) constant returns (uint256 balance);
@@ -127,7 +127,7 @@ contract StandardToken is QRC20Basic {
         return allowed[_owner][_spender];
     }
     function() {
-        //if runebase is sent to this address, send it back.
+        //if qtum is sent to this address, send it back.
         revert();
     }
 }

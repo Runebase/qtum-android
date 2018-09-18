@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <org.runebase.wallet.utils.FontTextView
+    <org.qtum.wallet.utils.FontTextView
         android:id="@+id/available_balance_title"
         style="@style/appbar_wallet_alpha_title"
         android:layout_width="wrap_content"
@@ -21,16 +21,16 @@
         android:id="@+id/ll_balance"
         android:orientation="horizontal">
 
-        <org.runebase.wallet.utils.FontTextView
+        <org.qtum.wallet.utils.FontTextView
             android:id="@+id/tv_balance"
-            android:text="0.0 RUNEBASE"
+            android:text="0.0 QTUM"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:typefaceAsset="@string/proximaNovaSemibold"
             android:textColor="@color/white"
             android:textSize="24sp" />
 
-        <org.runebase.wallet.utils.FontTextView
+        <org.qtum.wallet.utils.FontTextView
             android:id="@+id/tv_currency"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
 
     </LinearLayout>
 
-    <org.runebase.wallet.utils.FontTextView
+    <org.qtum.wallet.utils.FontTextView
         android:layout_marginTop="8dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -49,13 +49,13 @@
         android:text="@string/not_confirmed_balance"
         style="@style/appbar_wallet_alpha_title"/>
 
-    <org.runebase.wallet.utils.FontTextView
+    <org.qtum.wallet.utils.FontTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:textColor="@color/white"
         app:typefaceAsset="@string/proximaNovaSemibold"
-        android:text="0.0 RUNEBASE"
+        android:text="0.0 QTUM"
         android:id="@+id/tv_unconfirmed_balance"/>
 
     <LinearLayout
@@ -81,17 +81,17 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <org.runebase.wallet.utils.FontTextView
+            <org.qtum.wallet.utils.FontTextView
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:padding="2dp"
                 style="@style/appbar_wallet_alpha_title"
                 android:layout_weight="1"
                 android:gravity="bottom"
-                android:text="@string/runebase_address"
+                android:text="@string/qtum_address"
                 app:typefaceAsset="@string/proximaNovaRegular" />
 
-            <org.runebase.wallet.utils.FontTextView
+            <org.qtum.wallet.utils.FontTextView
                 android:id="@+id/tv_public_key"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"

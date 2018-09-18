@@ -11,7 +11,7 @@
         android:layout_marginTop="4dp"
         app:srcCompat="@drawable/ic_square"/>
 
-    <org.runebase.wallet.utils.FontTextView
+    <org.qtum.wallet.utils.FontTextView
         android:id="@+id/tv_text"
         android:textColor="@color/colorPrimary"
         app:typefaceAsset="@string/simplonMonoRegular"

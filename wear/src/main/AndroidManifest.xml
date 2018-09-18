@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.runebase.wallet">
+    package="org.qtum.wallet">
 
     <uses-feature android:name="android.hardware.type.watch" />
 

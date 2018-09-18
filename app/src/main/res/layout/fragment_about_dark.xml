@@ -34,7 +34,7 @@
                 android:tint="@color/background"
                 app:srcCompat="@drawable/ic_back_indicator"/>
 
-            <org.runebase.wallet.utils.FontTextView
+            <org.qtum.wallet.utils.FontTextView
                 android:id="@+id/tv_toolbar_restore_contracts"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -58,17 +58,17 @@
         <android.support.v7.widget.AppCompatImageView
             android:layout_width="300dp"
             android:layout_height="82dp"
-            app:srcCompat="@drawable/ic_runebase_logo_with_text"
+            app:srcCompat="@drawable/ic_qtum_logo_with_text"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="135dp"/>
 
-        <org.runebase.wallet.utils.FontTextView
-            android:id="@+id/tv_runebase_version"
+        <org.qtum.wallet.utils.FontTextView
+            android:id="@+id/tv_qtum_version"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/_2017_runebase_n_skynet_testnet_version"
+            android:text="@string/_2017_qtum_n_skynet_testnet_version"
             android:textColor="@color/colorPrimary"
             android:textSize="18sp"
             app:typefaceAsset="@string/avenir"

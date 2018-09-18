@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RUNEBASE</string>
+    <string name="app_name">QTUM</string>
 
     <string name="create_new">Create New</string>
     <string name="import_wallet">Import Wallet</string>
@@ -12,10 +12,10 @@
 
     <string name="my_wallet">My Wallet</string>
     <string name="public_key">Public Key</string>
-    <string name="runebase">RUNEBASE</string>
+    <string name="qtum">QTUM</string>
     <string name="receive">Receive</string>
     <string name="send">Send</string>
-    <string name="org.runebase.wallet.activity">Activity</string>
+    <string name="org.qtum.wallet.activity">Activity</string>
     <string name="receiver_s_address">Receiver\'s Address</string>
     <string name="amount">Amount</string>
     <string name="available_balance">"Available Balance"</string>
@@ -33,7 +33,7 @@
     <string name="received">Received</string>
     <string name="sent">Sent</string>
     <string name="received_time">Received Time</string>
-    <string name="transactionRUNEBASE">Transaction</string>
+    <string name="transactionQTUM">Transaction</string>
     <string name="from">From</string>
     <string name="to">To</string>
     <string name="import_button">Import</string>
@@ -134,7 +134,7 @@
     <string name="contract_created_successfully">Contract created successfully</string>
     <string name="restored_successfully">Restored successfully</string>
 
-    <string name="login_to_runebase_using_touch_id">Login to RUNEBASE\nusing Touch ID</string>
+    <string name="login_to_qtum_using_touch_id">Login to QTUM\nusing Touch ID</string>
     <string name="touch_id">Touch ID</string>
     <string name="enable_touch_id">Enable touch id</string>
     <string name="not_now">Not now</string>
@@ -162,7 +162,7 @@
 
     <string name="switch_theme">Switch Application Theme</string>
     <string name="confirmation">Confirmation…</string>
-    <string name="runebase_address">RUNEBASE Address</string>
+    <string name="qtum_address">QTUM Address</string>
     <string name="not_confirmed_yet">Not Confirmed Yet…</string>
     <string name="confirmed">Confirmed</string>
     <string name="preview">Preview</string>
@@ -184,7 +184,7 @@
     <string name="contract_details">Contract Details</string>
     <string name="sent_time">Sent time</string>
     <string name="you_have_insufficient_funds_for_this_transaction">You have insufficient funds for this transaction</string>
-    <string name="invalid_runebase_address">Invalid RUNEBASE Address</string>
+    <string name="invalid_qtum_address">Invalid QTUM Address</string>
     <string name="fail_to_get_contract_methods">Fail to get contract methods</string>
     <string name="fail_to_get_contracts">Fail to get contracts</string>
     <string name="trending_now">Trending Now</string>
@@ -194,12 +194,12 @@
     <string name="token_not_found">Token not found</string>
     <string name="copied">Copied</string>
     <string name="new_confirmed_transaction">New confirmed transaction</string>
-    <string name="_2017_runebase_n_skynet_testnet_version">© 2017 RUNEBASE \n </string>
+    <string name="_2017_qtum_n_skynet_testnet_version">© 2017 QTUM \n </string>
     <string name="touch_to_open_transaction_history">Touch to open transaction history</string>
     <string name="functions">Functions</string>
     <string name="wallet_backup">Wallet Backup</string>
     <string name="news_placeholder">Please follow our Medium account to get latest news and updates:</string>
-    <string name="news_placeholder_link">https://medium.com/@Runebase/</string>
+    <string name="news_placeholder_link">https://medium.com/@Qtum/</string>
     <string name="no_transaction_available_yet">No transactions available yet</string>
     <string name="_fee">Fee</string>
     <string name="invalid_fee">Invalid Fee</string>

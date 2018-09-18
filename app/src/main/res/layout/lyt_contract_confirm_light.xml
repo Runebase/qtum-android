@@ -27,7 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-            <org.runebase.wallet.utils.FontTextView
+            <org.qtum.wallet.utils.FontTextView
                 android:id="@+id/tv_toolbar_send"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -50,7 +50,7 @@
                     android:paddingTop="10dp"
                     app:srcCompat="@drawable/ic_back_indicator"/>
 
-                <org.runebase.wallet.utils.FontButton
+                <org.qtum.wallet.utils.FontButton
                     android:id="@+id/confirm"
                     android:text="@string/confirm"
                     android:gravity="center"
@@ -64,7 +64,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent" />
 
-                <org.runebase.wallet.utils.FontButton
+                <org.qtum.wallet.utils.FontButton
                     android:visibility="gone"
                     android:id="@+id/test_click"
                     android:text="test"
@@ -110,7 +110,7 @@
             android:layout_below="@+id/recycler_view"
             android:layout_alignParentStart="true">
 
-            <org.runebase.wallet.utils.FontTextView
+            <org.qtum.wallet.utils.FontTextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -119,7 +119,7 @@
                 app:typefaceAsset="@string/proximaNovaRegular"
                 android:textColor="@color/black"/>
 
-            <org.runebase.wallet.utils.FontTextView
+            <org.qtum.wallet.utils.FontTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -190,7 +190,7 @@
                         android:gravity="center"
                         android:orientation="horizontal">
 
-                        <org.runebase.wallet.utils.FontTextView
+                        <org.qtum.wallet.utils.FontTextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -198,7 +198,7 @@
                             android:textColor="@color/black"
                             app:typefaceAsset="@string/proximaNovaRegular"/>
 
-                        <org.runebase.wallet.utils.FontTextView
+                        <org.qtum.wallet.utils.FontTextView
                             android:id="@+id/tv_gas_price"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -214,7 +214,7 @@
                         android:gravity="center"
                         android:orientation="horizontal">
 
-                        <org.runebase.wallet.utils.FontTextView
+                        <org.qtum.wallet.utils.FontTextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -222,7 +222,7 @@
                             android:textColor="@color/black"
                             app:typefaceAsset="@string/proximaNovaRegular"/>
 
-                        <org.runebase.wallet.utils.FontTextView
+                        <org.qtum.wallet.utils.FontTextView
                             android:id="@+id/tv_gas_limit"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -247,7 +247,7 @@
                         android:layout_marginTop="16dp"
                         android:layout_marginBottom="16dp">
 
-                        <org.runebase.wallet.utils.FontTextView
+                        <org.qtum.wallet.utils.FontTextView
                             android:id="@+id/tv_min_gas_price"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
@@ -256,7 +256,7 @@
                             android:textColor="@color/black"
                             app:typefaceAsset="@string/proximaNovaRegular"/>
 
-                        <org.runebase.wallet.utils.FontTextView
+                        <org.qtum.wallet.utils.FontTextView
                             android:id="@+id/tv_max_gas_price"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -281,7 +281,7 @@
                         android:layout_marginTop="16dp"
                         android:layout_marginBottom="16dp">
 
-                        <org.runebase.wallet.utils.FontTextView
+                        <org.qtum.wallet.utils.FontTextView
                             android:id="@+id/tv_min_gas_limit"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
@@ -290,7 +290,7 @@
                             android:textColor="@color/black"
                             app:typefaceAsset="@string/proximaNovaRegular"/>
 
-                        <org.runebase.wallet.utils.FontTextView
+                        <org.qtum.wallet.utils.FontTextView
                             android:id="@+id/tv_max_gas_limit"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -310,7 +310,7 @@
 
                 </LinearLayout>
 
-                <org.runebase.wallet.utils.FontButton
+                <org.qtum.wallet.utils.FontButton
                     android:id="@+id/bt_edit_close"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

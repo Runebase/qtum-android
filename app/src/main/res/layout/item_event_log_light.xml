@@ -12,14 +12,14 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <org.runebase.wallet.utils.FontTextView
+        <org.qtum.wallet.utils.FontTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/address"
             android:textColor="@color/event_log_title_color"
             app:typefaceAsset="@string/proximaNovaRegular"/>
 
-        <org.runebase.wallet.utils.FontTextView
+        <org.qtum.wallet.utils.FontTextView
             android:id="@+id/tv_address"
             app:typefaceAsset="@string/proximaNovaSemibold"
             android:layout_width="wrap_content"
@@ -42,7 +42,7 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <org.runebase.wallet.utils.FontTextView
+        <org.qtum.wallet.utils.FontTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/topics"
@@ -71,7 +71,7 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <org.runebase.wallet.utils.FontTextView
+        <org.qtum.wallet.utils.FontTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/data"

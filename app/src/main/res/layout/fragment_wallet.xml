@@ -43,16 +43,16 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-                <org.runebase.wallet.utils.FontTextView
+                <org.qtum.wallet.utils.FontTextView
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="bottom"
-                    android:text="@string/runebase_address"
+                    android:text="@string/qtum_address"
                     android:textColor="@color/background"
                     app:typefaceAsset="@string/simplonMonoRegular" />
 
-                <org.runebase.wallet.utils.FontTextView
+                <org.qtum.wallet.utils.FontTextView
 
                     android:id="@+id/tv_public_key"
                     android:layout_width="match_parent"
@@ -83,7 +83,7 @@
             android:background="@drawable/bottom_vav_view_tab_selected_drawable"
             android:gravity="left|center_vertical"
             android:padding="8dp"
-            android:text="@string/org.runebase.wallet.activity"
+            android:text="@string/org.qtum.wallet.activity"
             android:textColor="@color/colorPrimary" />
 
             <android.support.v4.widget.SwipeRefreshLayout
@@ -174,7 +174,7 @@
                         android:layout_height="56dp"
                         android:background="@color/colorPrimary">
 
-                        <org.runebase.wallet.utils.FontTextView
+                        <org.qtum.wallet.utils.FontTextView
                             android:id="@+id/tv_wallet_name"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"

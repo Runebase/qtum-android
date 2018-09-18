@@ -20,7 +20,7 @@
 
     <TextView
         android:textStyle="bold"
-        android:text="RUNEBASE"
+        android:text="QTUM"
         android:textColor="@android:color/white"
         android:textSize="12sp"
         android:gravity="center"
@@ -43,7 +43,7 @@
 
     <TextView
         android:textStyle="bold"
-        android:text="RUNEBASE"
+        android:text="QTUM"
         android:textColor="@android:color/white"
         android:textSize="12sp"
         android:gravity="center"

@@ -24,10 +24,10 @@ repositories {
 android {
     signingConfigs {
         releaseConfig {
-            keyAlias 'RUNEBASE'
-            keyPassword 'runebase-mobile'
-            storeFile file('/home/bago/runebase.jks')
-            storePassword 'runebase-mobile'
+            keyAlias 'QTUM'
+            keyPassword 'qtum-mobile'
+            storeFile file('/Users/kirillvolkov/Documents/PixelPlex/Qtum/jks/qtum-test.jks')
+            storePassword 'qtum-mobile'
         }
     }
     flavorDimensions 'default'
@@ -83,7 +83,7 @@ dependencies {
     testCompile 'org.assertj:assertj-core:2.8.0'
     compile 'com.android.support:support-v4:26.1.0'
     compile 'com.android.support:design:26.1.0'
-    compile 'com.github.runebase:android-fork-bitcoinj:-SNAPSHOT'
+    compile 'com.github.Runebase:android-fork-bitcoinj:2a15a5feb7'
     compile 'com.android.support:multidex:1.0.2'
     compile 'com.google.zxing:core:3.3.0'
     compile 'com.jakewharton:butterknife:8.4.0'

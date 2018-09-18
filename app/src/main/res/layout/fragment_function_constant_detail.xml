@@ -34,7 +34,7 @@
                 android:tint="@color/background"
                 app:srcCompat="@drawable/ic_back_indicator"/>
 
-            <org.runebase.wallet.utils.FontTextView
+            <org.qtum.wallet.utils.FontTextView
                 android:id="@+id/tv_toolbar_send"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -67,7 +67,7 @@
                 android:splitMotionEvents="false"/>
 
 
-            <org.runebase.wallet.utils.FontButton
+            <org.qtum.wallet.utils.FontButton
                 android:id="@+id/bt_query"
                 android:layout_width="168dp"
                 android:layout_height="wrap_content"
@@ -93,7 +93,7 @@
                 android:layout_below="@+id/recycler_view"
                 android:layout_centerHorizontal="true">
 
-                <org.runebase.wallet.utils.FontTextView
+                <org.qtum.wallet.utils.FontTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/tv_query_result"

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/background"
     android:padding="@dimen/box_inset_layout_padding"
-    tools:context="org.runebase.wallet.activity.MainActivity"
+    tools:context="org.qtum.wallet.activity.MainActivity"
     tools:deviceIds="wear">
 
     <FrameLayout

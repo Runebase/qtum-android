@@ -16,7 +16,7 @@
         android:layout_weight="1"
         android:padding="2dp">
 
-        <org.runebase.wallet.utils.FontTextView
+        <org.qtum.wallet.utils.FontTextView
             android:id="@+id/tv_placeholder_balance_title"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -31,7 +31,7 @@
             android:layout_height="match_parent"
             android:layout_alignParentRight="true">
 
-            <org.runebase.wallet.utils.FontTextView
+            <org.qtum.wallet.utils.FontTextView
                 android:id="@+id/tv_placeholder_balance_value"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -41,7 +41,7 @@
                 android:textSize="12sp"
                 app:typefaceAsset="@string/simplonMonoRegular"/>
 
-            <org.runebase.wallet.utils.FontTextView
+            <org.qtum.wallet.utils.FontTextView
                 android:id="@+id/tv_placeholder_symbol"
                 android:layout_marginLeft="4dp"
                 android:layout_width="wrap_content"
@@ -64,7 +64,7 @@
         android:padding="2dp"
         android:visibility="gone">
 
-        <org.runebase.wallet.utils.FontTextView
+        <org.qtum.wallet.utils.FontTextView
             android:id="@+id/tv_placeholder_not_confirmed_balance_title"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -74,13 +74,13 @@
             android:textSize="12sp"
             app:typefaceAsset="@string/simplonMonoRegular"/>
 
-        <org.runebase.wallet.utils.FontTextView
+        <org.qtum.wallet.utils.FontTextView
             android:id="@+id/tv_placeholder_not_confirmed_balance_value"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentRight="true"
             android:gravity="center"
-            android:text="0.0 RUNEBASE"
+            android:text="0.0 QTUM"
             android:textColor="@color/background"
             android:textSize="12sp"
             app:typefaceAsset="@string/simplonMonoRegular"/>

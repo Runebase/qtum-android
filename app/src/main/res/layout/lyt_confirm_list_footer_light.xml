@@ -12,7 +12,7 @@
         android:layout_marginBottom="16dp"
         />
 
-    <org.runebase.wallet.utils.FontTextView
+    <org.qtum.wallet.utils.FontTextView
         android:id="@+id/miner_title"
         android:text="@string/mine_address"
         android:textColor="@color/bottom_nav_bar_text_color_light"
@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <org.runebase.wallet.utils.FontTextView
+    <org.qtum.wallet.utils.FontTextView
         android:id="@+id/miner_value"
         android:textStyle="bold"
         android:layout_marginTop="8dp"

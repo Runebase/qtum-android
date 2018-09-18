@@ -25,21 +25,21 @@
 
 
 
-            <org.runebase.wallet.utils.FontTextView
+            <org.qtum.wallet.utils.FontTextView
                 app:typefaceAsset="@string/proximaNovaSemibold"
                 android:background="@color/bottom_nav_bar_color_light"
                 android:layout_width="match_parent"
                 android:layout_height="32dp"
                 android:gravity="left|center_vertical"
                 android:padding="8dp"
-                android:text="@string/org.runebase.wallet.activity"
+                android:text="@string/org.qtum.wallet.activity"
                 android:textColor="@color/grey70" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <org.runebase.wallet.utils.FontTextView
+                <org.qtum.wallet.utils.FontTextView
                     app:typefaceAsset="@string/proximaNovaRegular"
                     android:id="@+id/token_histories_placeholder"
                     android:textColor="@color/grey70"
@@ -92,7 +92,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="56dp">
 
-                        <org.runebase.wallet.utils.FontTextView
+                        <org.qtum.wallet.utils.FontTextView
                             android:id="@+id/tv_token_name"
                             android:layout_toEndOf="@+id/bt_back"
                             android:layout_toStartOf="@+id/bt_share"
@@ -170,7 +170,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
 
-                <org.runebase.wallet.ui.wave_visualizer.WaveView
+                <org.qtum.wallet.ui.wave_visualizer.WaveView
                     android:id="@+id/wave_view"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />

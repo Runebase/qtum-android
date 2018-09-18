@@ -18,7 +18,7 @@
         android:layout_width="20dp"
         android:layout_height="20dp" />
 
-    <org.runebase.wallet.utils.FontTextView
+    <org.qtum.wallet.utils.FontTextView
         android:id="@+id/token_name"
         android:maxLines="1"
         android:textSize="14sp"
@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <org.runebase.wallet.utils.FontTextView
+    <org.qtum.wallet.utils.FontTextView
         android:id="@+id/token_type"
         android:maxLines="1"
         android:textSize="12sp"
@@ -45,7 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <org.runebase.wallet.utils.FontTextView
+    <org.qtum.wallet.utils.FontTextView
         android:id="@+id/token_cost"
         android:maxLines="1"
         android:textSize="16sp"
@@ -58,11 +58,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <org.runebase.wallet.utils.FontTextView
+    <org.qtum.wallet.utils.FontTextView
         android:maxLines="1"
         android:textSize="12sp"
         android:layout_marginTop="2dp"
-        android:text="@string/runebase"
+        android:text="@string/qtum"
         android:gravity="left"
         android:textColor="@color/colorPrimary"
         app:typefaceAsset="@string/simplonMonoRegular"

@@ -60,7 +60,7 @@
                         android:layout_height="56dp"
                         android:background="@color/colorPrimary">
 
-                        <org.runebase.wallet.utils.FontTextView
+                        <org.qtum.wallet.utils.FontTextView
                             android:id="@+id/tv_token_name"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -134,7 +134,7 @@
                 android:layout_height="1dp"
                 android:background="@color/background" />
 
-            <org.runebase.wallet.utils.StackCollapseLinearLayout
+            <org.qtum.wallet.utils.StackCollapseLinearLayout
                 android:layout_marginTop="1dp"
                 android:id="@+id/collapse_layout"
                 android:layout_width="match_parent"
@@ -167,7 +167,7 @@
                 </FrameLayout>
 
 
-            </org.runebase.wallet.utils.StackCollapseLinearLayout>
+            </org.qtum.wallet.utils.StackCollapseLinearLayout>
 
 
 
@@ -177,7 +177,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <org.runebase.wallet.utils.FontTextView
+                <org.qtum.wallet.utils.FontTextView
                     android:id="@+id/token_histories_placeholder"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -198,7 +198,7 @@
                         android:layout_height="40dp"
                         android:gravity="left|center_vertical"
                         android:padding="8dp"
-                        android:text="@string/org.runebase.wallet.activity"
+                        android:text="@string/org.qtum.wallet.activity"
                         android:textColor="@color/colorPrimary" />
 
                     <View

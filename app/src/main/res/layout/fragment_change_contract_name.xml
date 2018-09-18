@@ -34,7 +34,7 @@
                 android:tint="@color/background"
                 app:srcCompat="@drawable/ic_back_indicator"/>
 
-            <org.runebase.wallet.utils.FontTextView
+            <org.qtum.wallet.utils.FontTextView
                 android:id="@+id/tv_toolbar_deleted_contract"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -84,7 +84,7 @@
                     android:textColor="@color/colorPrimary"/>
             </android.support.design.widget.TextInputLayout>
 
-            <org.runebase.wallet.utils.FontButton
+            <org.qtum.wallet.utils.FontButton
                 android:id="@+id/bt_change"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"

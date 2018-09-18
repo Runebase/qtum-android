@@ -12,7 +12,7 @@ android {
     flavorDimensions "default"
 
     defaultConfig {
-        applicationId "org.runebase.wallet"
+        applicationId "org.qtum.wallet"
         minSdkVersion 23
         targetSdkVersion 26
         versionCode 1

@@ -46,7 +46,7 @@
             android:minWidth="30dp"
             android:orientation="horizontal">
 
-            <org.runebase.wallet.utils.FontTextView
+            <org.qtum.wallet.utils.FontTextView
                 android:layout_marginStart="8dp"
                 android:id="@+id/address_balance"
                 android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                 app:typefaceAsset="@string/proximaNovaSemibold"
                 tools:text="15.0" />
 
-            <org.runebase.wallet.utils.FontTextView
+            <org.qtum.wallet.utils.FontTextView
                 android:id="@+id/address_symbol"
                 android:gravity="center"
                 android:layout_alignParentEnd="true"
@@ -67,7 +67,7 @@
                 android:textColor="@color/bottom_nav_bar_text_color_light_alpha_60"
                 android:textSize="14sp"
                 app:typefaceAsset="@string/proximaNovaRegular"
-                tools:text="@string/runebase" />
+                tools:text="@string/qtum" />
 
         </RelativeLayout>
 
@@ -78,7 +78,7 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <org.runebase.wallet.utils.FontTextView
+        <org.qtum.wallet.utils.FontTextView
             android:id="@+id/address_name"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
