@@ -9,7 +9,7 @@
               android:layout_width="match_parent"
               android:layout_height="wrap_content">
 
-    <org.qtum.wallet.utils.FontTextView
+    <org.runebase.wallet.utils.FontTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textIsSelectable="true"

@@ -39,7 +39,7 @@
                     android:scaleType="fitStart"
                     app:srcCompat="@drawable/ic_received_light"/>
 
-                <org.qtum.wallet.utils.FontTextView
+                <org.runebase.wallet.utils.FontTextView
                     android:id="@+id/tv_date"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
                     android:textColor="@color/bottom_nav_bar_text_color_light"
                     app:typefaceAsset="@string/proximaNovaRegular"/>
 
-                <org.qtum.wallet.utils.FontTextView
+                <org.runebase.wallet.utils.FontTextView
                     android:id="@+id/tv_getting_info"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -56,20 +56,20 @@
                     android:textColor="@color/grey"
                     app:typefaceAsset="@string/proximaNovaRegular"/>
 
-                <org.qtum.wallet.utils.FontTextView
+                <org.runebase.wallet.utils.FontTextView
                     android:id="@+id/tv_value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
                     android:gravity="right"
-                    android:text="-7,450 QTUM"
+                    android:text="-7,450 RUNEBASE"
                     android:textColor="@color/bottom_nav_bar_text_color_light"
                     android:textSize="18sp"
                     app:typefaceAsset="@string/proximaNovaSemibold"/>
 
             </LinearLayout>
 
-            <org.qtum.wallet.utils.FontTextView
+            <org.runebase.wallet.utils.FontTextView
                 android:id="@+id/tv_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
 
     </LinearLayout>
 
-    <org.qtum.wallet.utils.CustomProgressBarView
+    <org.runebase.wallet.utils.CustomProgressBarView
         android:layout_width="match_parent"
         android:layout_height="8dp"
         android:id="@+id/progress_indicator"

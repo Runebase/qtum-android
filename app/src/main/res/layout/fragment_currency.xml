@@ -33,7 +33,7 @@
                 android:paddingRight="16dp"
                 app:srcCompat="@drawable/ic_back_indicator"/>
 
-            <org.qtum.wallet.utils.FontTextView
+            <org.runebase.wallet.utils.FontTextView
                 android:id="@+id/tv_currency_title"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -61,12 +61,12 @@
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary">
 
-            <org.qtum.wallet.utils.SearchBar
+            <org.runebase.wallet.utils.SearchBar
                 android:id="@+id/search_bar"
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
 
-            </org.qtum.wallet.utils.SearchBar>
+            </org.runebase.wallet.utils.SearchBar>
 
         </FrameLayout>
 
@@ -79,7 +79,7 @@
 
         </android.support.v7.widget.RecyclerView>
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:id="@+id/place_holder"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

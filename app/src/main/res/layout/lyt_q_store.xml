@@ -64,7 +64,7 @@
                     android:padding="32dp"
                     app:srcCompat="@drawable/ic_add"/>
 
-                <org.qtum.wallet.utils.FontTextView
+                <org.runebase.wallet.utils.FontTextView
                     android:id="@+id/tv_toolbar_qstore"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <org.qtum.wallet.utils.SearchBar
+        <org.runebase.wallet.utils.SearchBar
             android:id="@+id/search_bar"
             android:layout_width="match_parent"
             app:lytSearchView="@layout/lyt_search_view"
@@ -111,7 +111,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <org.qtum.wallet.utils.FontCheckBox
+            <org.runebase.wallet.utils.FontCheckBox
                 android:id="@+id/cb_by_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -125,7 +125,7 @@
                 android:textColor="@color/colorPrimary"
                 android:text="@string/search_by_name"/>
 
-            <org.qtum.wallet.utils.FontCheckBox
+            <org.runebase.wallet.utils.FontCheckBox
                 android:id="@+id/cb_by_tag"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

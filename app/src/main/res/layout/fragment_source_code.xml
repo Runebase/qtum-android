@@ -33,7 +33,7 @@
                 android:paddingTop="10dp"
                 app:srcCompat="@drawable/ic_back_indicator"/>
 
-            <org.qtum.wallet.utils.FontTextView
+            <org.runebase.wallet.utils.FontTextView
                 android:id="@+id/tv_toolbar_news"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -54,7 +54,7 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:padding="16dp"
             android:id="@+id/tv_source_code"
             android:textColor="@color/code_regular_code"
