@@ -127,7 +127,7 @@ public class TransactionHolderLight extends RecyclerView.ViewHolder {
         }
 
         mTextViewID.setText(history.getTxHash());
-        mTextViewValue.setText(getSpannedBalance(history.getChangeInBalance().toString() + " RUNEBASE"));
+        mTextViewValue.setText(getSpannedBalance(history.getChangeInBalance().toString() + " RUNES"));
     }
 
     private SpannableString getSpannedBalance(String balance) {

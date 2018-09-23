@@ -35,11 +35,11 @@ class ReceiveInteractorImpl implements ReceiveInteractor {
 
     @Override
     public String formatBalance(String balanceString) {
-        return String.format("%S RUNEBASE", balanceString);
+        return String.format("%S RUNES", balanceString);
     }
 
     @Override
     public String formatUnconfirmedBalance(BigDecimal unconfirmedBalance) {
-        return String.format("%S RUNEBASE", String.valueOf(unconfirmedBalance.floatValue()));
+        return String.format("%S RUNES", String.valueOf(unconfirmedBalance.floatValue()));
     }
 }

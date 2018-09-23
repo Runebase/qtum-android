@@ -133,6 +133,6 @@ public class TransactionHolderDark extends RecyclerView.ViewHolder {
         }
 
         mTextViewID.setText(history.getTxHash());
-        mTextViewValue.setText(history.getChangeInBalance().toString() + " RUNEBASE");
+        mTextViewValue.setText(history.getChangeInBalance().toString() + " RUNES");
     }
 }

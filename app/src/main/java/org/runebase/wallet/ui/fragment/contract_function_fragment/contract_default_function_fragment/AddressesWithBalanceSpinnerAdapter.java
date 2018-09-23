@@ -56,7 +56,7 @@ public abstract class AddressesWithBalanceSpinnerAdapter extends BaseAdapter imp
             amount = new BigDecimal(String.valueOf(unspentOutput.getAmount()));
             balance = balance.add(amount);
         }
-        textViewSymbol.setText(" RUNEBASE");
+        textViewSymbol.setText(" RUNES");
         textViewBalance.setLongNumberText(balance.toString(), textViewBalance.getContext().getResources().getDisplayMetrics().widthPixels / 2);
         textViewAddress.setText(mKeyWithBalanceList.get(position).getAddress());
         return view;
