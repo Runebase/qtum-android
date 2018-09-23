@@ -72,10 +72,10 @@ public class WatchTokenInteractorImpl implements WatchTokenInteractor {
     }
 
     @Override
-    public String getQRC20TokenStandardAbi() {
+    public String getRRC20TokenStandardAbi() {
         TinyDB tinyDB = new TinyDB(mContext.get());
         for(ContractTemplate template: tinyDB.getContractTemplateList()){
-            if(template.getName().equals("QRC20TokenStandard")) {
+            if(template.getName().equals("RRC20TokenStandard")) {
                 return FileStorageManager.getInstance().readAbiContract(mContext.get(), template.getUuid());
             }
         }

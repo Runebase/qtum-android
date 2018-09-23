@@ -224,8 +224,8 @@ public class RunebaseService {
         return mServiceApi.isContractExist(contractAddress);
     }
 
-    public Observable<TokenHistoryResponse> getTokenHistoryList(String qrc20ContractAddress, int limit, int offset, List<String> addresses){
-        return mServiceApi.getTokenHistoryList(qrc20ContractAddress, limit, offset, addresses);
+    public Observable<TokenHistoryResponse> getTokenHistoryList(String rrc20ContractAddress, int limit, int offset, List<String> addresses){
+        return mServiceApi.getTokenHistoryList(rrc20ContractAddress, limit, offset, addresses);
     }
 
     public Observable<List<TransactionReceipt>> getTransactionReceipt(String txHash){

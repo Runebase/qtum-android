@@ -159,7 +159,7 @@ public class ParameterViewHolder extends RecyclerView.ViewHolder {
     }
 
     private String validateAddress(String content){
-        Pattern pattern = Pattern.compile("^[qQ][a-km-zA-HJ-NP-Z1-9]{0,33}$");
+        Pattern pattern = Pattern.compile("^[rR][a-km-zA-HJ-NP-Z1-9]{0,33}$");
         Matcher matcher = pattern.matcher(content);
         if (!matcher.matches()) {
             return "";

@@ -464,7 +464,7 @@ public abstract class SendFragment extends BaseFragment implements SendView {
 //            @Override
 //            public CharSequence filter(CharSequence charSequence, int i, int i1, Spanned spanned, int i2, int i3) {
 //                String content = mTextInputEditTextAddress.getText().toString() + charSequence;
-//                Pattern pattern = Pattern.compile("^[qQ][a-km-zA-HJ-NP-Z1-9]{0,33}$");
+//                Pattern pattern = Pattern.compile("^[rR][a-km-zA-HJ-NP-Z1-9]{0,33}$");
 //                Matcher matcher = pattern.matcher(content);
 //                if (!matcher.matches()) {
 //                    return "";
@@ -485,7 +485,7 @@ public abstract class SendFragment extends BaseFragment implements SendView {
 
             @Override
             public void afterTextChanged(Editable editable) {
-                Pattern pattern = Pattern.compile("^$|^[qQ][a-km-zA-HJ-NP-Z1-9]{0,33}$");
+                Pattern pattern = Pattern.compile("^$|^[rR][a-km-zA-HJ-NP-Z1-9]{0,33}$");
                 Matcher matcher = pattern.matcher(editable);
                 if (!matcher.matches()) {
                     int length = editable.length();
