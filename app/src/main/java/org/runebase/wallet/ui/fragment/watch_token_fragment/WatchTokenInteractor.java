@@ -21,7 +21,7 @@ public interface WatchTokenInteractor {
 
     String handleContractWithToken(String name, String address, String ABIInterface);
 
-    String getQRC20TokenStandardAbi();
+    String getRRC20TokenStandardAbi();
 
     Observable<ContractParams> getContractParams(String contractAddress);
 }

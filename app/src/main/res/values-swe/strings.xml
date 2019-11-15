@@ -153,7 +153,7 @@
     <string name="contract_details">合约详情</string>
     <string name="invalid_token_address">Token地址不正确</string>
     <string name="address_list">地址列表</string>
-    <string name="abi_doesnt_match_qrc20_standard">ABI不符合QRC20标准</string>
+    <string name="abi_doesnt_match_rrc20_standard">ABI不符合RRC20标准</string>
     <string name="token_was_added_to_your_wallet">Token已加入到钱包</string>
     <string name="token_with_same_address_already_exists">已存在相同地址的Token</string>
     <string name="transfer">转移</string>

@@ -497,7 +497,7 @@ public class ContractBuilder {
     private static String FUNCTION_TYPE = "function";
     private static String TYPE = "type";
 
-    public static boolean checkForValidityQRC20(String abiCode) {
+    public static boolean checkForValidityRRC20(String abiCode) {
         List<ContractMethod> standardInterface = initStandardInterface();
         JSONArray array;
         List<ContractMethod> contractMethods = new ArrayList<>();

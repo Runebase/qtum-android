@@ -142,7 +142,7 @@
     <string name="preview">Voorbeeld</string>
     <string name="restore">Herstellen</string>
     <string name="token_was_added_to_your_wallet">Token is toegevoegd aan je portemonnee</string>
-    <string name="abi_doesnt_match_qrc20_standard">ABI komt niet overeen met de RRC20-standaard</string>
+    <string name="abi_doesnt_match_rrc20_standard">ABI komt niet overeen met de RRC20-standaard</string>
     <string name="token_with_same_address_already_exists">Er bestaat al een token met hetzelfde adres</string>
     <string name="invalid_token_address">Ongeldig Token Adres</string>
     <string name="address_list">Adres Lijst</string>

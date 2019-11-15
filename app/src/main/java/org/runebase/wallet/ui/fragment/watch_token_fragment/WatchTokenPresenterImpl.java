@@ -21,13 +21,13 @@ public class WatchTokenPresenterImpl extends BaseFragmentPresenterImpl implement
 
     private WatchTokenView mWatchContractView;
     private WatchTokenInteractor mWatchContractInteractor;
-    private String QRC20TokenStandardAbi;
+    private String RRC20TokenStandardAbi;
     private Subscription mSubscription;
 
     public WatchTokenPresenterImpl(WatchTokenView view, WatchTokenInteractor interactor) {
         mWatchContractView = view;
         mWatchContractInteractor = interactor;
-        QRC20TokenStandardAbi = getInteractor().getQRC20TokenStandardAbi();
+        RRC20TokenStandardAbi = getInteractor().getRRC20TokenStandardAbi();
     }
 
     @Override
@@ -49,7 +49,7 @@ public class WatchTokenPresenterImpl extends BaseFragmentPresenterImpl implement
                 return;
             }
         }
-        String contractAddress = getInteractor().handleContractWithToken(name, address, QRC20TokenStandardAbi);
+        String contractAddress = getInteractor().handleContractWithToken(name, address, RRC20TokenStandardAbi);
         getView().subscribeTokenBalanceChanges(contractAddress);
 
         getView().setAlertDialog(R.string.token_was_added_to_your_wallet, "", R.string.ok, BaseFragment.PopUpType.confirm, getView().getAlertCallback());

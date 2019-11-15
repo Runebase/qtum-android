@@ -106,8 +106,8 @@ interface RunebaseRestService {
     @GET("/contracts/{addressContract}/exists")
     Observable<ExistContractResponse> isContractExist(@Path("addressContract") String addressContract);
 
-    @GET("/qrc20/{qrc20ContractAddress}/transfers")
-    Observable<TokenHistoryResponse> getTokenHistoryList(@Path("qrc20ContractAddress") String qrc20ContractAddress, @Query("limit") int limit, @Query("offset") int offset, @Query("addresses[]") List<String> addresses);
+    @GET("/rrc20/{rrc20ContractAddress}/transfers")
+    Observable<TokenHistoryResponse> getTokenHistoryList(@Path("rrc20ContractAddress") String rrc20ContractAddress, @Query("limit") int limit, @Query("offset") int offset, @Query("addresses[]") List<String> addresses);
 
     @GET("/transactions/{txhash}/receipt")
     Observable<List<TransactionReceipt>> getTransactionReceipt(@Path("txhash") String txHash);

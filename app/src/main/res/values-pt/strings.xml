@@ -142,7 +142,7 @@
     <string name="preview">Preview</string>
     <string name="restore">Restore</string>
     <string name="token_was_added_to_your_wallet">Token was added to your wallet</string>
-    <string name="abi_doesnt_match_qrc20_standard">ABI doesn\'t match QRC20 standard</string>
+    <string name="abi_doesnt_match_rrc20_standard">ABI doesn\'t match RRC20 standard</string>
     <string name="token_with_same_address_already_exists">Token with same address already exists</string>
     <string name="invalid_token_address">Invalid Token Address</string>
     <string name="address_list">Address List</string>
