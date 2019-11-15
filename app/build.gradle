@@ -83,7 +83,7 @@ dependencies {
     testCompile 'org.assertj:assertj-core:2.8.0'
     compile 'com.android.support:support-v4:27.0.2'
     compile 'com.android.support:design:27.0.2'
-    compile 'com.github.designsters:android-fork-bitcoinj:1.0.11'
+    compile 'com.github.Runebase:android-fork-bitcoinj:839fa56873'
     compile 'com.android.support:multidex:1.0.2'
     compile 'com.google.zxing:core:3.3.0'
     compile 'com.jakewharton:butterknife:8.8.1'

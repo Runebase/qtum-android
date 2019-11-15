@@ -1,15 +1,10 @@
 <resources>
     <string name="app_name">RUNEBASE</string>
-
     <string name="create_new">Create New</string>
     <string name="import_wallet">Import Wallet</string>
     <string name="create_the_first_one_or_restore_n_the_previous_wallet_key">Create the first one or restore \n the previous wallet key.</string>
     <string name="you_don_t_have_a_wallet_yet">You don\'t have a wallet, yet.</string>
-
-    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
-
     <string name="wallet_name">Wallet Name</string>
-
     <string name="my_wallet">My Wallet</string>
     <string name="public_key">Public Key</string>
     <string name="runebase">RUNEBASE</string>
@@ -39,18 +34,14 @@
     <string name="import_button">Import</string>
     <string name="language">Language</string>
     <string name="description">Description:</string>
-
     <string name="published_date">Published Date:</string>
     <string name="size">Size:</string>
     <string name="compiled_on">Compiled On:</string>
     <string name="source_code">Source Code:</string>
     <string name="published_by">Published By:</string>
     <string name="downloads">Downloads:</string>
-
     <string name="purchase">Purchase</string>
-
     <string name="confirm_purchase">Confirm Purchase</string>
-
     <string name="tags">Tags:</string>
     <string name="qstore">Qstore</string>
     <string name="search_by_name">Search by Name</string>
@@ -99,25 +90,12 @@
     <string name="ok">OK</string>
     <string name="other_tokens">Other Tokens</string>
     <string name="token_address">Token Address</string>
-
-    <!--FONT PATHS-->
-    <string name="euclidFlexMedium" translatable="false">fonts/euclidflexmedium.ttf</string>
-    <string name="simplonMonoMedium" translatable="false">fonts/simplonmonomedium.ttf</string>
-    <string name="simplonMonoRegular" translatable="false">fonts/simplonmonoregular.ttf</string>
-    <string name="avenir" translatable="false">fonts/avenir.ttc</string>
-    <string name="proximaNovaBold" translatable="false">fonts/proximanovabold.ttf</string>
-    <string name="proximaNovaLight" translatable="false">fonts/proximanovalight.ttf</string>
-    <string name="proximaNovaRegular" translatable="false">fonts/proximanovaregular.ttf</string>
-    <string name="proximaNovaSemibold" translatable="false">fonts/proximanovasemibold.ttf</string>
-
     <string name="retry">RETRY</string>
-
     <string name="smart_contracts">Smart Contracts</string>
     <string name="contracts_store">Contracts Store</string>
     <string name="call">Call</string>
     <string name="function_detail">Function Detail</string>
     <string name="contracts">Contracts</string>
-
     <string name="contract_address">Contract Address</string>
     <string name="unconfirmed">Unconfirmed</string>
     <string name="watch_contract">Watch Contract</string>
@@ -133,14 +111,11 @@
     <string name="please_check_your_network_settings">Please check your network settings</string>
     <string name="contract_created_successfully">Contract created successfully</string>
     <string name="restored_successfully">Restored successfully</string>
-
     <string name="login_to_runebase_using_touch_id">Login to RUNEBASE\nusing Touch ID</string>
     <string name="touch_id">Touch ID</string>
     <string name="enable_touch_id">Enable touch id</string>
     <string name="not_now">Not now</string>
     <string name="login">Login</string>
-
-
     <string name="contract_name">Contract Name:</string>
     <string name="contract_type">Contract Type:</string>
     <string name="price">Price:</string>
@@ -159,7 +134,6 @@
     <string name="abi_interface">ABI Interface</string>
     <string name="token">Token</string>
     <string name="smart_contract_parameters">Smart Contract Parameters</string>
-
     <string name="switch_theme">Switch Application Theme</string>
     <string name="confirmation">Confirmation…</string>
     <string name="runebase_address">RUNEBASE Address</string>

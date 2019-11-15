@@ -20,6 +20,9 @@ class LanguageInteractorImpl implements LanguageInteractor {
         mLanguagesList = new ArrayList<>();
         mLanguagesList.add(new Pair<>("us", "English"));
         mLanguagesList.add(new Pair<>("zh", "Chinese"));
+        mLanguagesList.add(new Pair<>("pt", "Portuguese"));
+        mLanguagesList.add(new Pair<>("swe", "Swedish"));
+        mLanguagesList.add(new Pair<>("nl", "Dutch"));
     }
 
     @Override

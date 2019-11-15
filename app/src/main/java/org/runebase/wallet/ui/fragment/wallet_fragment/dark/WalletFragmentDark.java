@@ -152,11 +152,11 @@ public class WalletFragmentDark extends WalletFragment {
     @Override
     public void updateBalance(String balance, String unconfirmedBalance) {
         try {
-            balanceValue.setText(String.format("%s RUNEBASE", balance));
+            balanceValue.setText(String.format("%s RUNES", balance));
             if (unconfirmedBalance != null) {
                 uncomfirmedBalanceValue.setVisibility(View.VISIBLE);
                 uncomfirmedBalanceTitle.setVisibility(View.VISIBLE);
-                uncomfirmedBalanceValue.setText(String.format("%s RUNEBASE", unconfirmedBalance));
+                uncomfirmedBalanceValue.setText(String.format("%s RUNES", unconfirmedBalance));
             } else {
                 uncomfirmedBalanceValue.setVisibility(View.GONE);
                 uncomfirmedBalanceTitle.setVisibility(View.GONE);

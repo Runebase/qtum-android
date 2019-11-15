@@ -795,8 +795,8 @@ public abstract class SendFragment extends BaseNavFragment implements SendView {
         } else {
             mSpinnerContainer.setVisibility(View.GONE);
             mRelativeLayoutGasManagementContainer.setVisibility(View.GONE);
-            placeHolderSymbol.setText("RUNEBASE");
-            placeHolderSymbolNotConfirmed.setText("RUNEBASE");
+            placeHolderSymbol.setText("RUNES");
+            placeHolderSymbolNotConfirmed.setText("RUNES");
             if (mUpdateService != null) {
                 mUpdateService.addBalanceChangeListener(mBalanceChangeListener);
             }

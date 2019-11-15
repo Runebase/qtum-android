@@ -32,9 +32,9 @@ public class ReceivePresenterImpl extends BaseFragmentPresenterImpl implements R
         if (balanceString != null) {
             String unconfirmedBalanceString = unconfirmedBalance.toString();
             if (getView().isUnconfirmedBalanceValid(unconfirmedBalanceString)) {
-                getView().updateBalance(balanceString, unconfirmedBalanceString, "RUNEBASE");
+                getView().updateBalance(balanceString, unconfirmedBalanceString, "RUNES");
             } else {
-                getView().updateBalance(balanceString, null, "RUNEBASE");
+                getView().updateBalance(balanceString, null, "RUNES");
             }
         }
     }
