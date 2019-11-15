@@ -26,7 +26,7 @@
                 android:background="@color/title_color_light"
                 app:popupTheme="@style/AppTheme.PopupOverlay">
 
-                <org.qtum.wallet.utils.FontTextView
+                <org.runebase.wallet.utils.FontTextView
                     android:id="@+id/tv_toolbar_profile"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

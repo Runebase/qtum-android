@@ -40,7 +40,7 @@
                     android:tint="@color/colorPrimary"
                     app:srcCompat="@drawable/ic_back_indicator"/>
 
-                <org.qtum.wallet.utils.FontTextView
+                <org.runebase.wallet.utils.FontTextView
                     android:id="@+id/tv_toolbar_title"
                     android:layout_width="0dp"
                     android:layout_weight="1"
@@ -75,7 +75,7 @@
         android:padding="@dimen/activity_horizontal_margin"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:id="@+id/tv_brain_code"
             android:layout_width="match_parent"
             app:editTextTypeface="@string/simplonMonoMedium"
@@ -88,7 +88,7 @@
             android:textColor="@color/colorPrimary"
             android:textColorHint="@color/colorPrimary"/>
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:id="@+id/tv_copy_brain_code_to_use"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -108,9 +108,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:paddingBottom="@dimen/activity_horizontal_margin"
-        app:layout_behavior="org.qtum.wallet.utils.MoveUpwardBehavior">
+        app:layout_behavior="org.runebase.wallet.utils.MoveUpwardBehavior">
 
-        <org.qtum.wallet.utils.FontButton
+        <org.runebase.wallet.utils.FontButton
             android:id="@+id/bt_copy_brain_code"
             android:layout_toEndOf="@+id/bt_continue"
             android:layout_toStartOf="@+id/bt_copy"
@@ -125,7 +125,7 @@
             android:textColor="@color/colorPrimary"
             android:textSize="@dimen/button_text"/>
 
-        <org.qtum.wallet.utils.FontButton
+        <org.runebase.wallet.utils.FontButton
             android:id="@+id/bt_copy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -139,7 +139,7 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true" />
 
-        <org.qtum.wallet.utils.FontButton
+        <org.runebase.wallet.utils.FontButton
             android:id="@+id/bt_continue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

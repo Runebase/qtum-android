@@ -24,10 +24,10 @@ repositories {
 android {
     signingConfigs {
         releaseConfig {
-            keyAlias 'QTUM'
-            keyPassword 'qtum-mobile'
-            storeFile file('/qtum-test.jks')
-            storePassword 'qtum-mobile'
+            keyAlias 'RUNEBASE'
+            keyPassword 'runebase-mobile'
+            storeFile file('/runebase-test.jks')
+            storePassword 'runebase-mobile'
         }
     }
     flavorDimensions 'default'

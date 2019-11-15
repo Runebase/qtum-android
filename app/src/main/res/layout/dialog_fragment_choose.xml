@@ -12,7 +12,7 @@
         android:background="@color/colorAccent"
         android:orientation="vertical">
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:id="@+id/tv_hex"
             app:typefaceAsset="@string/simplonMonoRegular"
             android:padding="6dp"
@@ -22,7 +22,7 @@
             android:textColor="@color/background"
             android:textSize="16sp"/>
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:id="@+id/tv_number"
             app:typefaceAsset="@string/simplonMonoRegular"
             android:padding="6dp"
@@ -32,7 +32,7 @@
             android:textColor="@color/background"
             android:textSize="16sp"/>
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:id="@+id/tv_text"
             app:typefaceAsset="@string/simplonMonoRegular"
             android:padding="6dp"
@@ -42,7 +42,7 @@
             android:textColor="@color/background"
             android:textSize="16sp"/>
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:id="@+id/tv_address"
             app:typefaceAsset="@string/simplonMonoRegular"
             android:padding="6dp"

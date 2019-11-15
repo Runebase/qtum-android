@@ -25,7 +25,7 @@
             android:paddingStart="8dp"
             android:paddingEnd="8dp">
 
-            <org.qtum.wallet.utils.FontTextView
+            <org.runebase.wallet.utils.FontTextView
                 android:id="@+id/tv_date"
                 app:typefaceAsset="@string/simplonMonoRegular"
                 android:layout_width="match_parent"
@@ -56,7 +56,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                <org.qtum.wallet.utils.FontTextView
+                <org.runebase.wallet.utils.FontTextView
                     android:id="@+id/tv_operation_type"
                     app:typefaceAsset="@string/simplonMonoRegular"
                     android:textColor="@color/pref_text_color_selector"
@@ -69,7 +69,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/sent_contract"/>
 
-                <org.qtum.wallet.utils.FontTextView
+                <org.runebase.wallet.utils.FontTextView
                     android:id="@+id/tv_value"
                     android:layout_width="wrap_content"
                     android:layout_weight="1"
@@ -82,14 +82,14 @@
                     android:textSize="16sp"
                     android:textStyle="bold"/>
 
-                <org.qtum.wallet.utils.FontTextView
+                <org.runebase.wallet.utils.FontTextView
                     android:layout_width="wrap_content"
                     android:id="@+id/symbol"
                     app:typefaceAsset="@string/simplonMonoMedium"
                     android:layout_height="wrap_content"
                     android:textColor="@color/pref_text_color_selector"
                     android:layout_alignParentRight="true"
-                    android:text=" QTUM"
+                    android:text=" RUNEBASE"
                     android:textSize="16sp"
                     android:textStyle="bold"/>
 
@@ -97,7 +97,7 @@
 
             </LinearLayout>
 
-            <org.qtum.wallet.utils.FontTextView
+            <org.runebase.wallet.utils.FontTextView
                 android:id="@+id/tv_id"
                 app:typefaceAsset="@string/simplonMonoRegular"
                 android:layout_width="wrap_content"
@@ -115,7 +115,7 @@
 
     </LinearLayout>
 
-    <org.qtum.wallet.utils.CustomProgressBarView
+    <org.runebase.wallet.utils.CustomProgressBarView
         android:layout_width="match_parent"
         android:layout_height="8dp"
         android:layout_marginTop="2dp"

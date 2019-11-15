@@ -38,7 +38,7 @@
                 android:paddingTop="10dp"
                 app:srcCompat="@drawable/ic_back_indicator"/>
 
-                <org.qtum.wallet.utils.FontTextView
+                <org.runebase.wallet.utils.FontTextView
                 android:id="@+id/tv_toolbar_send"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -58,7 +58,7 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:id="@+id/step"
             android:background="@color/colorPrimary"
             android:textColor="@color/background"
@@ -89,7 +89,7 @@
                 android:layout_height="32dp"
                 app:srcCompat="@drawable/ic_token2"/>
 
-            <org.qtum.wallet.utils.FontEditText
+            <org.runebase.wallet.utils.FontEditText
                 android:inputType="textNoSuggestions"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -120,7 +120,7 @@
             android:weightSum="2"
             android:layout_height="wrap_content">
 
-            <org.qtum.wallet.utils.FontButton
+            <org.runebase.wallet.utils.FontButton
                 android:id="@+id/cancel"
                 android:text="@string/cancel"
                 android:gravity="center"
@@ -134,7 +134,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content" />
 
-            <org.qtum.wallet.utils.FontButton
+            <org.runebase.wallet.utils.FontButton
                 android:id="@+id/confirm"
                 android:text="@string/next"
                 android:gravity="center"

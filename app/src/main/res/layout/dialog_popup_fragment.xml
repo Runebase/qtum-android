@@ -6,7 +6,7 @@
                 android:background="@color/colorPrimary"
               android:layout_height="wrap_content">
 
-    <org.qtum.wallet.utils.FontTextView
+    <org.runebase.wallet.utils.FontTextView
         app:typefaceAsset="@string/simplonMonoRegular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent">
 
-        <org.qtum.wallet.utils.FontButton
+        <org.runebase.wallet.utils.FontButton
             android:id="@+id/bt_pop_up"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
             android:layout_marginLeft="4dp"
             android:textSize="@dimen/button_text"/>
 
-        <org.qtum.wallet.utils.FontButton
+        <org.runebase.wallet.utils.FontButton
             android:id="@+id/bt_pop_up2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
 
 
 
-    <org.qtum.wallet.utils.FontTextView
+    <org.runebase.wallet.utils.FontTextView
         android:id="@+id/tv_pop_up_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

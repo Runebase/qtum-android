@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <resources>
-    <string name="app_name">QTUM</string>
+    <string name="app_name">RUNEBASE</string>
     <string name="create_new">新建</string>
     <string name="import_wallet">导入钱包</string>
     <string name="create_the_first_one_or_restore_n_the_previous_wallet_key">新建一个钱包 \n 或者导入已有钱包</string>
@@ -8,10 +8,10 @@
     <string name="wallet_name">钱包名称</string>
     <string name="my_wallet">我的钱包</string>
     <string name="public_key">公钥</string>
-    <string name="qtum">QTUM</string>
+    <string name="runebase">RUNEBASE</string>
     <string name="receive">接收</string>
     <string name="send">发送</string>
-    <string name="org.qtum.wallet.activity">活动</string>
+    <string name="org.runebase.wallet.activity">活动</string>
     <string name="receiver_s_address">接收人地址</string>
     <string name="amount">数量</string>
     <string name="available_balance">"可用余额: "</string>
@@ -28,7 +28,7 @@
     <string name="received">已接收</string>
     <string name="sent">发送</string>
     <string name="received_time">接收时间</string>
-    <string name="transactionQTUM">交易</string>
+    <string name="transactionRUNEBASE">交易</string>
     <string name="from">从</string>
     <string name="to">到</string>
     <string name="import_button">导入</string>
@@ -118,7 +118,7 @@
     <string name="enable_touch_id">启用touch id</string>
     <string name="error">错误</string>
     <string name="login">登录</string>
-    <string name="login_to_qtum_using_touch_id">使用Touch ID登录QTUM</string>
+    <string name="login_to_runebase_using_touch_id">使用Touch ID登录RUNEBASE</string>
     <string name="no_internet_connection">无网络连接</string>
     <string name="not_now">暂不启用</string>
     <string name="payment_completed_successfully">成功完成支付</string>
@@ -138,7 +138,7 @@
     <string name="smart_contract_parameters">智能合约参数</string>
     <string name="switch_theme">切换应用主题</string>
     <string name="confirmation">确认…</string>
-    <string name="qtum_address">QTUM地址</string>
+    <string name="runebase_address">RUNEBASE地址</string>
     <string name="not_confirmed_yet">还未确认…</string>
     <string name="confirmed">已确认</string>
     <string name="preview">预览</string>
@@ -171,13 +171,13 @@
 
     <!--FONT PATHS-->
     <string name="sent_time">发送时间</string>
-    <string name="invalid_qtum_address">不合法的QTUM地址</string>
+    <string name="invalid_runebase_address">不合法的RUNEBASE地址</string>
     <string name="invalid_qr_code">无效的二维码格式</string>
-    <string name="_2017_qtum_n_skynet_testnet_version">"© 2017 QTUM \n "</string>
+    <string name="_2017_runebase_n_skynet_testnet_version">"© 2017 RUNEBASE \n "</string>
     <string name="functions">函数</string>
     <string name="wallet_backup">钱包备份</string>
     <string name="news_placeholder">请关注我们的社交媒体账号获取更多最新动态</string>
-    <string name="news_placeholder_link">https://medium.com/@Qtum/</string>
+    <string name="news_placeholder_link">https://medium.com/@Runebase/</string>
 
     <string name="insufficient_fee_lease_use_minimum_of">交易费不足。请使用至少</string>
 
@@ -224,7 +224,7 @@
     <string name="invalid_fee">不正确的手续费</string>
     <string name="_fee">手续费</string>
     <string name="token_unsupported">不支持</string>
-    <string name="token_unsupported_reason">对不起，这个代币超出了128位小数位的限制，所以不能被QTUM应用支持</string>
+    <string name="token_unsupported_reason">对不起，这个代币超出了128位小数位的限制，所以不能被RUNEBASE应用支持</string>
     <string name="your_balance_was_last_updated_at">你的余额最后更新于</string>
     <string name="internal_transaction">内部交易</string>
 

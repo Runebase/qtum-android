@@ -7,7 +7,7 @@
               android:orientation="vertical"
               android:padding="16dp">
 
-    <org.qtum.wallet.utils.FontTextView
+    <org.runebase.wallet.utils.FontTextView
         android:id="@+id/available_balance_title"
         style="@style/appbar_wallet_alpha_title"
         android:layout_width="wrap_content"
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:id="@+id/tv_balance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -29,19 +29,19 @@
             android:textSize="24sp"
             app:typefaceAsset="@string/proximaNovaSemibold"/>
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:id="@+id/tv_currency"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
-            android:text="QTUM"
+            android:text="RUNEBASE"
             android:textColor="@color/white"
             android:textSize="14sp"
             app:typefaceAsset="@string/proximaNovaSemibold"/>
 
     </LinearLayout>
 
-    <org.qtum.wallet.utils.FontTextView
+    <org.runebase.wallet.utils.FontTextView
         android:id="@+id/unconfirmed_balance_title"
         style="@style/appbar_wallet_alpha_title"
         android:layout_width="wrap_content"
@@ -56,7 +56,7 @@
         android:id="@+id/ll_unconfirmed_balance"
         android:orientation="horizontal">
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:id="@+id/tv_unconfirmed_balance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -64,11 +64,11 @@
             android:textSize="24sp"
             app:typefaceAsset="@string/proximaNovaSemibold"/>
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
-            android:text="QTUM"
+            android:text="RUNEBASE"
             android:textColor="@color/white"
             android:textSize="14sp"
             app:typefaceAsset="@string/proximaNovaSemibold"/>
@@ -82,7 +82,7 @@
         android:layout_marginTop="16dp"
         android:orientation="vertical">
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/no_internet_title"
@@ -91,7 +91,7 @@
             android:textColor="@color/white"
             app:typefaceAsset="@string/proximaNovaSemibold"/>
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:id="@+id/last_updated_placeholder"
             style="@style/appbar_wallet_alpha_title"
             android:layout_width="wrap_content"
@@ -125,17 +125,17 @@
             android:orientation="vertical"
             android:weightSum="2">
 
-            <org.qtum.wallet.utils.FontTextView
+            <org.runebase.wallet.utils.FontTextView
                 style="@style/appbar_wallet_alpha_title"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="bottom"
                 android:padding="2dp"
-                android:text="@string/qtum_address"
+                android:text="@string/runebase_address"
                 app:typefaceAsset="@string/proximaNovaRegular"/>
 
-            <org.qtum.wallet.utils.FontTextView
+            <org.runebase.wallet.utils.FontTextView
                 android:id="@+id/tv_public_key"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"

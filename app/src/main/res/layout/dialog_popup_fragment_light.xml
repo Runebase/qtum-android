@@ -30,7 +30,7 @@
             android:layout_width="20dp"
             android:layout_height="20dp" />
 
-        <org.qtum.wallet.utils.FontTextView
+        <org.runebase.wallet.utils.FontTextView
             android:text="Title"
             android:gravity="center"
             android:textSize="18sp"
@@ -41,7 +41,7 @@
 
     </LinearLayout>
 
-    <org.qtum.wallet.utils.FontTextView
+    <org.runebase.wallet.utils.FontTextView
         android:text="Notification Message"
         android:textSize="16sp"
         android:gravity="center"
@@ -62,7 +62,7 @@
         android:layout_centerHorizontal="true"
         android:orientation="horizontal">
 
-        <org.qtum.wallet.utils.FontButton
+        <org.runebase.wallet.utils.FontButton
             android:id="@+id/bt_pop_up"
             android:background="@drawable/btn_sea_corner_background_light"
             android:padding="16dp"
@@ -77,7 +77,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <org.qtum.wallet.utils.FontButton
+        <org.runebase.wallet.utils.FontButton
             android:id="@+id/bt_pop_up2"
             android:background="@drawable/btn_sea_corner_background_light"
             android:padding="16dp"
