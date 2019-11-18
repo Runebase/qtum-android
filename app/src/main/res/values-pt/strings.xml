@@ -10,7 +10,7 @@
     <string name="runebase">RUNEBASE</string>
     <string name="receive">Receber</string>
     <string name="send">Enviar</string>
-    <string name="org.runebase.wallet.activity">Atividade</string>
+    <string name="org.runebase.wallet.activity">Atividades</string>
     <string name="receiver_s_address">Endereço do Destinatário</string>
     <string name="amount">Quantidade</string>
     <string name="available_balance">"Saldo Disponível"</string>
@@ -32,7 +32,7 @@
     <string name="from">De</string>
     <string name="to">Para</string>
     <string name="import_button">Importante</string>
-    <string name="language">Linaguagem</string>
+    <string name="language">Linguagem</string>
     <string name="description">Descrição:</string>
     <string name="published_date">Data de Publicação:</string>
     <string name="size">Tamanho:</string>
@@ -78,7 +78,7 @@
     <string name="enter_pin_lower_case">Entrar com PIN</string>
     <string name="enter_new_pin">Entrar Com Novo PIN</string>
     <string name="repeat_pin">Repetir PIN</string>
-    <string name="enter_old_pin">Entrar Com Antigo PIN</string>
+    <string name="enter_old_pin">Entrar Com PIN Antigo</string>
     <string name="yes">Sim</string>
     <string name="no">Não</string>
     <string name="are_you_sure">Você Tem Certeza?</string>
@@ -100,8 +100,8 @@
     <string name="unconfirmed">Não Confirmado</string>
     <string name="watch_contract">Ver Contrato</string>
     <string name="watch_token">Ver Token</string>
-    <string name="restore_contracts">Restaurar Contracts</string>
-    <string name="backup_contracts">Backup Contratos</string>
+    <string name="restore_contracts">Restaurar Contratos</string>
+    <string name="backup_contracts">Backup dos Contratos</string>
     <string name="select_back_up_file">Selecionar Arquivo de Backup</string>
     <string name="please_wait_a_few_seconds">Aguarde Por Favor</string>
     <string name="payment_completed_successfully">Pagamento Realizado Com Sucesso</string>
@@ -123,7 +123,7 @@
     <string name="Fee">Taxa:</string>
     <string name="Source_code">Código Fonte</string>
     <string name="store_categories">Qstore Categories</string> <!-- Unknown Term -->
-    <string name="tap_to_save_the_file">Toque Para Silvar o Arquivo</string>
+    <string name="tap_to_save_the_file">Toque Para Salvar o Arquivo</string>
     <string name="my_new_contracts">Meu Modelo de Contrato</string>
     <string name="my_published_contracts">Meus Contratos Publicados</string>
     <string name="not_confirmed_transaction">Transação Não Confirmada</string>
@@ -140,7 +140,7 @@
     <string name="not_confirmed_yet">Ainda Não Confirmado…</string>
     <string name="confirmed">Confirmado</string>
     <string name="preview">Pré-Visualização</string>
-    <string name="restore">Restoaurar</string>
+    <string name="restore">Restaurar</string>
     <string name="token_was_added_to_your_wallet">Token Foi Adicionar na Sua Carteira</string>
     <string name="abi_doesnt_match_rrc20_standard">ABI Não Corresponde ao Padrão RRC20</string>
     <string name="token_with_same_address_already_exists">Já Existe Um Token Com o Mesmo Endereço</string>
@@ -190,9 +190,9 @@
     <string name="amount_too_big">Valor Muito Grande</string>
     <string name="swipe_left_to_unsubscribe_or_delete_contract">Deslize Para Esquerda Para Cancelar a Inscrição ou Excluir o Contrato</string>
     <string name="query">Consulta</string>
-    <string name="query_result">Resultado da Conslta</string>
+    <string name="query_result">Resultado da Consulta</string>
     <string name="default_address">Endereço Padrão</string>
-    <string name="choose_from_library"><![CDATA[Escolha da Biblioteca >]]></string>
+    <string name="choose_from_library"><![CDATA[Escolher da Biblioteca >]]></string>
     <string name="contract_address_">Endereço do Contrato</string>
     <string name="contract_name_">Nome do Contrato</string>
     <string name="name">Nome</string>
@@ -217,7 +217,6 @@
     <string name="change">Alterar</string>
     <string name="contract_was_deleted_by_its_author_and_is_no_longer_available_you_can_unsubscribe_to_remove_it_from_your_wallet">O contrato foi excluído pelo autor e não está mais disponível. Você pode cancelar a inscrição para removê-lo da sua carteira.</string>
     <string name="unsubscribe">Cancelar Inscrição</string>
-    <string name="valid_contract_name_symbol" translatable="false">0123456789qwertzuiopasdfghjklyxcvbnmабвгдеёжзийклмнопрстуфхцчшщъыьэюяQWERTZUIOPASDFGHJKLYXCVBNMАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ</string>
     <string name="token_unsupported">Não Suportado</string>
     <string name="token_unsupported_reason">Desculpe, esse token excede o limite de 128 casas decimais. Portanto, ele não pode ser suportado no aplicativo RUNEBASE</string>
     <string name="your_balance_was_last_updated_at">Seu saldo foi atualizado pela última vez em</string>
